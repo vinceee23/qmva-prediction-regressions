@@ -1,32 +1,31 @@
-2025-10-18 04:38:41,800 - INFO - ================================================================================
-2025-10-18 04:38:41,801 - INFO - LOADING DATA AND RISK ANALYSIS
-2025-10-18 04:38:41,802 - INFO - ================================================================================
-2025-10-18 04:38:41,802 - INFO - Loading dataset from: enhanced_engineered_data\dataset_with_temporal_features.csv
-2025-10-18 04:38:41,820 - INFO -   - Positive cases (MVA Qualified): 30 (6.01%)
-2025-10-18 04:38:41,820 - INFO -   - Negative cases: 469 (93.99%)
-2025-10-18 04:38:41,823 - INFO -   - MVA: 90 (18.0%)
-2025-10-18 04:38:41,824 - INFO -   - Call Back: 76 (15.2%)
-2025-10-18 04:38:41,824 - INFO -   - Misc: 75 (15.0%)
-2025-10-18 04:38:41,825 - INFO -   - Premise: 9 (1.8%)
-2025-10-18 04:38:41,825 - INFO -   - WC: 7 (1.4%)
-2025-10-18 04:38:41,845 - INFO -   - Temporal features: 5
-2025-10-18 04:38:41,845 - INFO -   - Call features: 7
-2025-10-18 04:38:41,846 - INFO -   - Lead features: 3
-2025-10-18 04:38:41,847 - INFO -   - Revenue features: 1
-2025-10-18 04:38:41,847 - INFO -   - Law type features: 1
-2025-10-18 04:38:41,848 - INFO -   - Text features: 2
-2025-10-18 04:38:41,849 - INFO - 
+2025-10-18 05:05:52,002 - INFO - ================================================================================
+2025-10-18 05:05:52,002 - INFO - LOADING DATA AND RISK ANALYSIS
+2025-10-18 05:05:52,003 - INFO - ================================================================================
+2025-10-18 05:05:52,003 - INFO - Loading dataset from: enhanced_engineered_data\dataset_with_temporal_features.csv
+2025-10-18 05:05:52,019 - INFO -   - Positive cases (MVA Qualified): 30 (6.01%)
+2025-10-18 05:05:52,020 - INFO -   - Negative cases: 469 (93.99%)
+2025-10-18 05:05:52,022 - INFO -   - MVA: 90 (18.0%)
+2025-10-18 05:05:52,023 - INFO -   - Call Back: 76 (15.2%)
+2025-10-18 05:05:52,023 - INFO -   - Misc: 75 (15.0%)
+2025-10-18 05:05:52,024 - INFO -   - Premise: 9 (1.8%)
+2025-10-18 05:05:52,024 - INFO -   - WC: 7 (1.4%)
+2025-10-18 05:05:52,041 - INFO -   - Temporal features: 0
+2025-10-18 05:05:52,041 - INFO -   - Call features: 4
+2025-10-18 05:05:52,042 - INFO -   - Lead features: 1
+2025-10-18 05:05:52,042 - INFO -   - Revenue features: 0
+2025-10-18 05:05:52,042 - INFO -   - Law type features: 1
+2025-10-18 05:05:52,043 - INFO -   - Text features: 1
+2025-10-18 05:05:52,043 - INFO - 
 ================================================================================
-2025-10-18 04:38:41,849 - INFO - EXCLUDING HIGH-RISK FEATURES
-2025-10-18 04:38:41,850 - INFO - ================================================================================
-2025-10-18 04:38:41,855 - INFO - Does 'Inquiry Start Timestamp' exist? False
-2025-10-18 04:38:41,856 - INFO - First 10 columns: ['ÃƒÂ¯Ã‚Â»Ã‚Â¿Ad Id', 'Ad Placement', 'Broadcast Month', 'Budget RPL', 'Call Abandoned Flag', 'Call Abandoned Seconds', 'Call In-Queue Seconds', 'Call Type Exception Flag', 'Campaign Topic', 'Clicks']
-2025-10-18 04:38:41,881 - INFO - Creating polynomial features for: ['Ad Placement', 'Budget RPL', 'Call Abandoned Seconds', 'Campaign Topic', 'Clicks']
-2025-10-18 04:38:41,897 - WARNING - Found 4 validation issues:
-2025-10-18 04:38:41,898 - WARNING -   - Has_Call_Channel: Constant feature - removing
-2025-10-18 04:38:41,898 - WARNING -   - Has_Web_Channel: Constant feature - removing
-2025-10-18 04:38:41,899 - WARNING -   - Has_Sms_Channel: Constant feature - removing
-2025-10-18 04:38:41,900 - WARNING -   - Channel_Diversity_Index: Constant feature - removing
-2025-10-18 04:38:41,906 - INFO - 
+2025-10-18 05:05:52,044 - INFO - EXCLUDING HIGH-RISK FEATURES
+2025-10-18 05:05:52,044 - INFO - ================================================================================
+2025-10-18 05:05:52,049 - INFO - Does 'Inquiry Start Timestamp' exist? False
+2025-10-18 05:05:52,050 - INFO - First 10 columns: ['ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â¿Ad Id', 'Ad Placement', 'Broadcast Month', 'Budget RPL', 'Call Abandoned Flag', 'Call Abandoned Seconds', 'Call In-Queue Seconds', 'Call Type Exception Flag', 'Campaign Topic', 'Clicks']
+2025-10-18 05:05:52,087 - WARNING - Found 4 validation issues:
+2025-10-18 05:05:52,088 - WARNING -   - Has_Call_Channel: Constant feature - removing
+2025-10-18 05:05:52,088 - WARNING -   - Has_Web_Channel: Constant feature - removing
+2025-10-18 05:05:52,089 - WARNING -   - Has_Sms_Channel: Constant feature - removing
+2025-10-18 05:05:52,090 - WARNING -   - Channel_Diversity_Index: Constant feature - removing
+2025-10-18 05:05:52,095 - INFO - 
 ================================================================================
-2025-10-18 04:38:41,908 - INFO - ================================================================================
+2025-10-18 05:05:52,097 - INFO - ================================================================================

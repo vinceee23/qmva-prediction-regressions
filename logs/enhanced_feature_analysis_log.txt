@@ -1,126 +1,110 @@
-2025-10-18 04:38:38,229 - INFO - ================================================================================
-2025-10-18 04:38:38,230 - INFO - ENHANCED FEATURE ANALYZER - LOADING DATA (CSV)
-2025-10-18 04:38:38,231 - INFO - ================================================================================
-2025-10-18 04:38:38,231 - INFO - Loading data from: sample_data_synthetic_sensible.csv
-2025-10-18 04:38:38,251 - INFO - 
-Dataset shape: (1000, 236)
-2025-10-18 04:38:38,256 - INFO - Memory usage: 1.80 MB
-2025-10-18 04:38:38,257 - INFO - 
+2025-10-18 05:05:50,726 - INFO - ================================================================================
+2025-10-18 05:05:50,727 - INFO - ENHANCED FEATURE ANALYZER - LOADING DATA (CSV)
+2025-10-18 05:05:50,727 - INFO - ================================================================================
+2025-10-18 05:05:50,728 - INFO - Loading data from: sample_data_synthetic_sensible.csv
+2025-10-18 05:05:50,753 - INFO - 
+Dataset shape: (1200, 61)
+2025-10-18 05:05:50,756 - INFO - Memory usage: 0.56 MB
+2025-10-18 05:05:50,757 - INFO - 
 ================================================================================
-2025-10-18 04:38:38,257 - INFO - DATA DISTRIBUTION ANALYSIS
-2025-10-18 04:38:38,258 - INFO - ================================================================================
-2025-10-18 04:38:38,259 - INFO - 
+2025-10-18 05:05:50,757 - INFO - DATA DISTRIBUTION ANALYSIS
+2025-10-18 05:05:50,758 - INFO - ================================================================================
+2025-10-18 05:05:50,759 - INFO - 
 Law type column found: 'Inquiry Call Type Law Type (Broad)'
-2025-10-18 04:38:38,262 - INFO - --------------------------------------------------
-2025-10-18 04:38:38,263 - INFO -   None                      465 ( 46.5%)
-2025-10-18 04:38:38,263 - INFO -   MVA                       188 ( 18.8%)
-2025-10-18 04:38:38,264 - INFO -   Misc                      156 ( 15.6%)
-2025-10-18 04:38:38,264 - INFO -   Call Back                 151 ( 15.1%)
-2025-10-18 04:38:38,265 - INFO -   WC                         18 (  1.8%)
-2025-10-18 04:38:38,266 - INFO -   Premise                    13 (  1.3%)
-2025-10-18 04:38:38,266 - INFO -   L&E                         9 (  0.9%)
-2025-10-18 04:38:38,267 - INFO - 
+2025-10-18 05:05:50,762 - INFO - --------------------------------------------------
+2025-10-18 05:05:50,763 - INFO -   MVA                     1,200 (100.0%)
+2025-10-18 05:05:50,763 - INFO - 
 Qualified flag column found: 'Inquiry Call Type Qualified Flag'
-2025-10-18 04:38:38,270 - INFO - --------------------------------------------------
-2025-10-18 04:38:38,271 - INFO -   None                      451 ( 45.1%)
-2025-10-18 04:38:38,271 - INFO -   No                        449 ( 44.9%)
-2025-10-18 04:38:38,272 - INFO -   Yes                       100 ( 10.0%)
-2025-10-18 04:38:38,280 - INFO -    Definition: (Inquiry Call Type Qualified Flag = 'Yes') AND (Inquiry Call Type Law Type (Broad) = 'MVA')
-2025-10-18 04:38:38,281 - INFO -    Positive cases: 20 (2.00%)
-2025-10-18 04:38:38,281 - INFO -    Negative cases: 980 (98.00%)
-2025-10-18 04:38:38,284 - INFO -    Qualified (any type): 100 (10.00%)
-2025-10-18 04:38:38,285 - INFO -    MVA cases: 188 (18.80%)
-2025-10-18 04:38:38,286 - INFO -    MVA & Qualified: 20 (2.00%)
-2025-10-18 04:38:38,301 - INFO - Inquiry Call Type Qualified Flag    False  True   All
-Inquiry Call Type Law Type (Broad)                   
-False                                 732    80   812
-True                                  168    20   188
-All                                   900   100  1000
-2025-10-18 04:38:38,305 - INFO -    Checking first 100 numeric columns for redundancy...
-2025-10-18 04:38:38,377 - INFO - Found 17 redundant feature pairs:
-2025-10-18 04:38:38,388 - INFO -   ... and 12 more
-2025-10-18 04:38:38,389 - INFO - 
+2025-10-18 05:05:50,766 - INFO - --------------------------------------------------
+2025-10-18 05:05:50,767 - INFO -   Yes                     1,200 (100.0%)
+2025-10-18 05:05:50,774 - INFO -    Definition: (Inquiry Call Type Qualified Flag = 'Yes') AND (Inquiry Call Type Law Type (Broad) = 'MVA')
+2025-10-18 05:05:50,774 - INFO -    Positive cases: 1,200 (100.00%)
+2025-10-18 05:05:50,775 - INFO -    Negative cases: 0 (0.00%)
+2025-10-18 05:05:50,777 - INFO -    Qualified (any type): 1,200 (100.00%)
+2025-10-18 05:05:50,778 - INFO -    MVA cases: 1,200 (100.00%)
+2025-10-18 05:05:50,779 - INFO -    MVA & Qualified: 1,200 (100.00%)
+2025-10-18 05:05:50,799 - INFO - Inquiry Call Type Qualified Flag    True   All
+Inquiry Call Type Law Type (Broad)            
+True                                1200  1200
+All                                 1200  1200
+2025-10-18 05:05:50,817 - INFO - Found 4 redundant feature pairs:
+2025-10-18 05:05:50,826 - INFO - 
 ================================================================================
-2025-10-18 04:38:38,390 - INFO - ENHANCED FEATURE ANALYSIS WITH AGGRESSIVE RISK DETECTION
-2025-10-18 04:38:38,390 - INFO - ================================================================================
-2025-10-18 04:38:38,393 - INFO -    Using sequential processing
-2025-10-18 04:38:38,393 - INFO -    Progress: 0/236 features analyzed...
-2025-10-18 04:38:38,872 - INFO -    Progress: 50/236 features analyzed...
-2025-10-18 04:38:39,329 - INFO -    Progress: 100/236 features analyzed...
-2025-10-18 04:38:39,905 - INFO -    Progress: 150/236 features analyzed...
-2025-10-18 04:38:40,331 - INFO -    Progress: 200/236 features analyzed...
-2025-10-18 04:38:41,438 - INFO - 
+2025-10-18 05:05:50,827 - INFO - ENHANCED FEATURE ANALYSIS WITH AGGRESSIVE RISK DETECTION
+2025-10-18 05:05:50,828 - INFO - ================================================================================
+2025-10-18 05:05:50,830 - INFO -    Using sequential processing
+2025-10-18 05:05:50,831 - INFO -    Progress: 0/60 features analyzed...
+2025-10-18 05:05:51,138 - INFO -    Progress: 50/60 features analyzed...
+2025-10-18 05:05:51,392 - INFO - 
 ================================================================================
-2025-10-18 04:38:41,441 - INFO - ================================================================================
-2025-10-18 04:38:41,441 - INFO - 
+2025-10-18 05:05:51,396 - INFO - ================================================================================
+2025-10-18 05:05:51,396 - INFO - 
 ================================================================================
-2025-10-18 04:38:41,444 - INFO - ================================================================================
-2025-10-18 04:38:41,450 - INFO -   Tier 2 (Strong review, Risk 5-7):       47 features (19.9%)
-2025-10-18 04:38:41,451 - INFO -   Tier 3 (Consider carefully, Risk 3-4):    2 features (0.8%)
-2025-10-18 04:38:41,453 - INFO -   Tier 4 (Likely safe, Risk < 3):         100 features (42.4%)
-2025-10-18 04:38:41,456 - INFO -   - Incident State: Score 34 (very_high_cardinality(95.6%); medium_unique_count(956); PII_pattern; system_pattern; very_high_cramers(0.987); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,457 - INFO -   - Consumer Phone (Caller ID) Geo State: Score 33 (very_high_cardinality(94.0%); medium_unique_count(940); PII_pattern; system_pattern; very_high_cramers(0.934); high_cardinality_text)
-2025-10-18 04:38:41,458 - INFO -   - First Log Entry Timestamp: Score 29 (high_cardinality(39.3%); PII_pattern; system_pattern; text_pattern; medium_cramers(0.592); high_cardinality_text)
-2025-10-18 04:38:41,458 - INFO -   - Consumer Name (First): Score 28 (very_high_cardinality(93.4%); medium_unique_count(934); PII_pattern; very_high_cramers(0.948); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,459 - INFO -   - Consumer State: Score 28 (very_high_cardinality(95.9%); medium_unique_count(959); PII_pattern; very_high_cramers(1.000); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,459 - INFO -   - Consumer City: Score 27 (very_high_cardinality(79.5%); medium_unique_count(795); PII_pattern; very_high_cramers(0.922); high_cardinality_text)
-2025-10-18 04:38:41,460 - INFO -   - Consumer Name (Last): Score 27 (very_high_cardinality(93.5%); medium_unique_count(935); PII_pattern; very_high_cramers(0.939); high_cardinality_text)
-2025-10-18 04:38:41,461 - INFO -   - Consumer Phone (Caller ID): Score 27 (very_high_cardinality(89.7%); medium_unique_count(897); PII_pattern; system_pattern; suspiciously_complete)
-2025-10-18 04:38:41,462 - INFO -   - Consumer Email: Score 27 (very_high_cardinality(76.9%); medium_unique_count(769); PII_pattern; very_high_cramers(0.880); high_cardinality_text)
-2025-10-18 04:38:41,462 - INFO -   - Inquiry DMA State: Score 27 (very_high_cardinality(80.6%); medium_unique_count(806); PII_pattern; very_high_cramers(0.894); high_cardinality_text)
-2025-10-18 04:38:41,463 - INFO -   - Phone Area Code (ID): Score 27 (very_high_cardinality(53.5%); medium_unique_count(535); PII_pattern; system_pattern; suspiciously_complete)
-2025-10-18 04:38:41,464 - INFO -   - Consumer Phone (Caller ID) Area Code: Score 26 (very_high_cardinality(51.0%); medium_unique_count(510); PII_pattern; system_pattern)
-2025-10-18 04:38:41,464 - INFO -   - Inquiry Most Recent Timestamp: Score 26 (very_high_cardinality(99.5%); medium_unique_count(995); system_pattern; very_high_cramers(1.000); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,465 - INFO -   - Inquiry Start Timestamp: Score 26 (very_high_cardinality(99.3%); medium_unique_count(993); system_pattern; very_high_cramers(0.987); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,466 - INFO -   - Consumer Walker Geo (Code): Score 25 (very_high_cardinality(81.6%); medium_unique_count(816); system_pattern; very_high_cramers(0.922); high_cardinality_text)
-2025-10-18 04:38:41,466 - INFO -   - Incident City: Score 25 (high_cardinality(37.2%); PII_pattern; system_pattern; high_cramers(0.632); high_cardinality_text)
-2025-10-18 04:38:41,467 - INFO -   - Incident DMA State: Score 25 (high_cardinality(39.7%); PII_pattern; system_pattern; high_cramers(0.633); high_cardinality_text)
-2025-10-18 04:38:41,468 - INFO -   - First Walker Geo (Code): Score 24 (high_cardinality(39.1%); PII_pattern; system_pattern; medium_cramers(0.550); high_cardinality_text)
-2025-10-18 04:38:41,468 - INFO -   - Call Start Timestamp: Score 23 (very_high_cardinality(54.9%); medium_unique_count(549); system_pattern; high_cramers(0.673); high_cardinality_text)
-2025-10-18 04:38:41,469 - INFO -   - Incident Zip: Score 20 (high_cardinality(34.4%); PII_pattern; system_pattern)
-2025-10-18 04:38:41,472 - INFO -   - Assumed RPL: Score 7 (high_cardinality(41.3%); suspiciously_complete)
-2025-10-18 04:38:41,472 - INFO -   - Retained by Atty?: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,473 - INFO -   - CompletedWeeksInMediaMonth: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,474 - INFO -   - CompletedWeeksInMediaQuarter: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,474 - INFO -   - Consumer Settlement Status: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,475 - INFO -   - Inquiry Call Type Qualification Level: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,476 - INFO -   - Inquiry Count for Fulfillment Flag: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,476 - INFO -   - Inquiry Media Source Active Status: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,477 - INFO -   - ReasonNotRetainedOther: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,477 - INFO -   - Inquiry Status: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,662 - INFO - 
+2025-10-18 05:05:51,399 - INFO - ================================================================================
+2025-10-18 05:05:51,405 - INFO -   Tier 2 (Strong review, Risk 5-7):       18 features (30.0%)
+2025-10-18 05:05:51,405 - INFO -   Tier 3 (Consider carefully, Risk 3-4):    0 features (0.0%)
+2025-10-18 05:05:51,406 - INFO -   Tier 4 (Likely safe, Risk < 3):          23 features (38.3%)
+2025-10-18 05:05:51,409 - INFO -   - TimeToFirstResponseMinutes: Score 24 (medium_cardinality(15.8%); PII_pattern; system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:05:51,410 - INFO -   - LogDaysSinceIncident: Score 19 (medium_cardinality(17.1%); PII_pattern; system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,411 - INFO -   - ResponseTimeHours: Score 16 (medium_cardinality(15.8%); system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:05:51,411 - INFO -   - HoursIncidentToCall: Score 15 (high_cardinality(48.8%); medium_unique_count(586); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,412 - INFO -   - CaseUrgencyScore: Score 15 (high_cardinality(49.4%); medium_unique_count(593); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,413 - INFO -   - CaseComplexityScore: Score 15 (high_cardinality(49.8%); medium_unique_count(597); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,413 - INFO -   - EngagementScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:05:51,414 - INFO -   - EngagementZScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:05:51,415 - INFO -   - Inquiry Call Type Qualified Flag: Score 12 (outcome_pattern; target_related_name)
+2025-10-18 05:05:51,415 - INFO -   - IncidentRecencyDays: Score 11 (medium_cardinality(17.1%); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,416 - INFO -   - StatuteRiskScore: Score 9 (high_cardinality(45.8%); medium_unique_count(550); suspiciously_complete)
+2025-10-18 05:05:51,417 - INFO -   - SourceReliabilityScore: Score 9 (high_cardinality(47.0%); medium_unique_count(564); suspiciously_complete)
+2025-10-18 05:05:51,418 - INFO -   - ChannelDiversityIndex: Score 9 (high_cardinality(42.6%); medium_unique_count(511); suspiciously_complete)
+2025-10-18 05:05:51,418 - INFO -   - DuplicateInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:05:51,419 - INFO -   - PriorContactCount: Score 8 (PII_pattern)
+2025-10-18 05:05:51,420 - INFO -   - ChannelIsPhone: Score 8 (PII_pattern)
+2025-10-18 05:05:51,420 - INFO -   - TouchpointsLast7d: Score 8 (PII_pattern)
+2025-10-18 05:05:51,421 - INFO -   - ChannelCountLast30d: Score 8 (PII_pattern)
+2025-10-18 05:05:51,422 - INFO -   - UniqueInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:05:51,425 - INFO -   - RetainedByAttorneyFlag: Score 7 (outcome_pattern)
+2025-10-18 05:05:51,426 - INFO -   - InquiryTimeOfDay: Score 6 (system_pattern)
+2025-10-18 05:05:51,426 - INFO -   - SameDayIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:05:51,427 - INFO -   - DaysIncidentToCall: Score 6 (system_pattern)
+2025-10-18 05:05:51,428 - INFO -   - HoursIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:05:51,429 - INFO -   - IncidentWithin90d: Score 6 (system_pattern)
+2025-10-18 05:05:51,429 - INFO -   - IncidentWithin30d: Score 6 (system_pattern)
+2025-10-18 05:05:51,430 - INFO -   - DaysIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:05:51,431 - INFO -   - IncidentWithin365d: Score 6 (system_pattern)
+2025-10-18 05:05:51,432 - INFO -   - SameDayIncidentToCall: Score 6 (system_pattern)
+2025-10-18 05:05:51,816 - INFO - 
 ================================================================================
-2025-10-18 04:38:41,665 - INFO - ================================================================================
-2025-10-18 04:38:41,671 - INFO -   Tier 2 (Strong review, Risk 5-7):       47 features (19.9%)
-2025-10-18 04:38:41,671 - INFO -   Tier 3 (Consider carefully, Risk 3-4):    2 features (0.8%)
-2025-10-18 04:38:41,672 - INFO -   Tier 4 (Likely safe, Risk < 3):         100 features (42.4%)
-2025-10-18 04:38:41,675 - INFO -   - Incident State: Score 34 (very_high_cardinality(95.6%); medium_unique_count(956); PII_pattern; system_pattern; very_high_cramers(0.987); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,675 - INFO -   - Consumer Phone (Caller ID) Geo State: Score 33 (very_high_cardinality(94.0%); medium_unique_count(940); PII_pattern; system_pattern; very_high_cramers(0.934); high_cardinality_text)
-2025-10-18 04:38:41,676 - INFO -   - First Log Entry Timestamp: Score 29 (high_cardinality(39.3%); PII_pattern; system_pattern; text_pattern; medium_cramers(0.592); high_cardinality_text)
-2025-10-18 04:38:41,677 - INFO -   - Consumer Name (First): Score 28 (very_high_cardinality(93.4%); medium_unique_count(934); PII_pattern; very_high_cramers(0.948); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,677 - INFO -   - Consumer State: Score 28 (very_high_cardinality(95.9%); medium_unique_count(959); PII_pattern; very_high_cramers(1.000); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,678 - INFO -   - Consumer City: Score 27 (very_high_cardinality(79.5%); medium_unique_count(795); PII_pattern; very_high_cramers(0.922); high_cardinality_text)
-2025-10-18 04:38:41,679 - INFO -   - Consumer Name (Last): Score 27 (very_high_cardinality(93.5%); medium_unique_count(935); PII_pattern; very_high_cramers(0.939); high_cardinality_text)
-2025-10-18 04:38:41,680 - INFO -   - Consumer Phone (Caller ID): Score 27 (very_high_cardinality(89.7%); medium_unique_count(897); PII_pattern; system_pattern; suspiciously_complete)
-2025-10-18 04:38:41,680 - INFO -   - Consumer Email: Score 27 (very_high_cardinality(76.9%); medium_unique_count(769); PII_pattern; very_high_cramers(0.880); high_cardinality_text)
-2025-10-18 04:38:41,681 - INFO -   - Inquiry DMA State: Score 27 (very_high_cardinality(80.6%); medium_unique_count(806); PII_pattern; very_high_cramers(0.894); high_cardinality_text)
-2025-10-18 04:38:41,682 - INFO -   - Phone Area Code (ID): Score 27 (very_high_cardinality(53.5%); medium_unique_count(535); PII_pattern; system_pattern; suspiciously_complete)
-2025-10-18 04:38:41,682 - INFO -   - Consumer Phone (Caller ID) Area Code: Score 26 (very_high_cardinality(51.0%); medium_unique_count(510); PII_pattern; system_pattern)
-2025-10-18 04:38:41,683 - INFO -   - Inquiry Most Recent Timestamp: Score 26 (very_high_cardinality(99.5%); medium_unique_count(995); system_pattern; very_high_cramers(1.000); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,684 - INFO -   - Inquiry Start Timestamp: Score 26 (very_high_cardinality(99.3%); medium_unique_count(993); system_pattern; very_high_cramers(0.987); high_cardinality_text; suspiciously_complete)
-2025-10-18 04:38:41,685 - INFO -   - Consumer Walker Geo (Code): Score 25 (very_high_cardinality(81.6%); medium_unique_count(816); system_pattern; very_high_cramers(0.922); high_cardinality_text)
-2025-10-18 04:38:41,685 - INFO -   - Incident City: Score 25 (high_cardinality(37.2%); PII_pattern; system_pattern; high_cramers(0.632); high_cardinality_text)
-2025-10-18 04:38:41,686 - INFO -   - Incident DMA State: Score 25 (high_cardinality(39.7%); PII_pattern; system_pattern; high_cramers(0.633); high_cardinality_text)
-2025-10-18 04:38:41,687 - INFO -   - First Walker Geo (Code): Score 24 (high_cardinality(39.1%); PII_pattern; system_pattern; medium_cramers(0.550); high_cardinality_text)
-2025-10-18 04:38:41,688 - INFO -   - Call Start Timestamp: Score 23 (very_high_cardinality(54.9%); medium_unique_count(549); system_pattern; high_cramers(0.673); high_cardinality_text)
-2025-10-18 04:38:41,688 - INFO -   - Incident Zip: Score 20 (high_cardinality(34.4%); PII_pattern; system_pattern)
-2025-10-18 04:38:41,691 - INFO -   - Assumed RPL: Score 7 (high_cardinality(41.3%); suspiciously_complete)
-2025-10-18 04:38:41,692 - INFO -   - Retained by Atty?: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,693 - INFO -   - CompletedWeeksInMediaMonth: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,694 - INFO -   - CompletedWeeksInMediaQuarter: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,694 - INFO -   - Consumer Settlement Status: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,695 - INFO -   - Inquiry Call Type Qualification Level: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,696 - INFO -   - Inquiry Count for Fulfillment Flag: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,697 - INFO -   - Inquiry Media Source Active Status: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,697 - INFO -   - ReasonNotRetainedOther: Score 7 (outcome_pattern)
-2025-10-18 04:38:41,698 - INFO -   - Inquiry Status: Score 7 (outcome_pattern)
+2025-10-18 05:05:51,818 - INFO - ================================================================================
+2025-10-18 05:05:51,824 - INFO -   Tier 2 (Strong review, Risk 5-7):       18 features (30.0%)
+2025-10-18 05:05:51,825 - INFO -   Tier 3 (Consider carefully, Risk 3-4):    0 features (0.0%)
+2025-10-18 05:05:51,826 - INFO -   Tier 4 (Likely safe, Risk < 3):          23 features (38.3%)
+2025-10-18 05:05:51,829 - INFO -   - TimeToFirstResponseMinutes: Score 24 (medium_cardinality(15.8%); PII_pattern; system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:05:51,829 - INFO -   - LogDaysSinceIncident: Score 19 (medium_cardinality(17.1%); PII_pattern; system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,830 - INFO -   - ResponseTimeHours: Score 16 (medium_cardinality(15.8%); system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:05:51,830 - INFO -   - HoursIncidentToCall: Score 15 (high_cardinality(48.8%); medium_unique_count(586); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,831 - INFO -   - CaseUrgencyScore: Score 15 (high_cardinality(49.4%); medium_unique_count(593); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,832 - INFO -   - CaseComplexityScore: Score 15 (high_cardinality(49.8%); medium_unique_count(597); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,833 - INFO -   - EngagementScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:05:51,833 - INFO -   - EngagementZScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:05:51,834 - INFO -   - Inquiry Call Type Qualified Flag: Score 12 (outcome_pattern; target_related_name)
+2025-10-18 05:05:51,835 - INFO -   - IncidentRecencyDays: Score 11 (medium_cardinality(17.1%); system_pattern; suspiciously_complete)
+2025-10-18 05:05:51,835 - INFO -   - StatuteRiskScore: Score 9 (high_cardinality(45.8%); medium_unique_count(550); suspiciously_complete)
+2025-10-18 05:05:51,836 - INFO -   - SourceReliabilityScore: Score 9 (high_cardinality(47.0%); medium_unique_count(564); suspiciously_complete)
+2025-10-18 05:05:51,837 - INFO -   - ChannelDiversityIndex: Score 9 (high_cardinality(42.6%); medium_unique_count(511); suspiciously_complete)
+2025-10-18 05:05:51,837 - INFO -   - DuplicateInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:05:51,838 - INFO -   - PriorContactCount: Score 8 (PII_pattern)
+2025-10-18 05:05:51,839 - INFO -   - ChannelIsPhone: Score 8 (PII_pattern)
+2025-10-18 05:05:51,839 - INFO -   - TouchpointsLast7d: Score 8 (PII_pattern)
+2025-10-18 05:05:51,840 - INFO -   - ChannelCountLast30d: Score 8 (PII_pattern)
+2025-10-18 05:05:51,841 - INFO -   - UniqueInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:05:51,844 - INFO -   - RetainedByAttorneyFlag: Score 7 (outcome_pattern)
+2025-10-18 05:05:51,845 - INFO -   - InquiryTimeOfDay: Score 6 (system_pattern)
+2025-10-18 05:05:51,845 - INFO -   - SameDayIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:05:51,846 - INFO -   - DaysIncidentToCall: Score 6 (system_pattern)
+2025-10-18 05:05:51,847 - INFO -   - HoursIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:05:51,847 - INFO -   - IncidentWithin90d: Score 6 (system_pattern)
+2025-10-18 05:05:51,848 - INFO -   - IncidentWithin30d: Score 6 (system_pattern)
+2025-10-18 05:05:51,848 - INFO -   - DaysIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:05:51,849 - INFO -   - IncidentWithin365d: Score 6 (system_pattern)
+2025-10-18 05:05:51,850 - INFO -   - SameDayIncidentToCall: Score 6 (system_pattern)

@@ -1,6 +1,6 @@
 # Enhanced Feature Engineering Summary
 
-**Generated on:** 2025-10-18 04:38:41
+**Generated on:** 2025-10-18 05:05:52
 **Version:** Enhanced with full dataset support
 
 ## Dataset Overview
@@ -8,8 +8,8 @@
 - **Input file:** enhanced_engineered_data\dataset_with_temporal_features.csv
 - **Total records:** 499
 - **Original features:** 214
-- **High-risk features excluded:** 132
-- **Features after exclusion:** 82
+- **High-risk features excluded:** 36
+- **Features after exclusion:** 178
 - **New features created:** 2
 - **Final feature count:** 213
 

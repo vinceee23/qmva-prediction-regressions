@@ -1,30 +1,30 @@
-2025-10-18 04:38:44,083 - INFO - ================================================================================
-2025-10-18 04:38:44,083 - INFO - LOADING ENGINEERED DATASET WITH TEMPORAL FEATURES
-2025-10-18 04:38:44,084 - INFO - ================================================================================
-2025-10-18 04:38:44,085 - INFO - Loading data from: enhanced_engineered_data/dataset_with_temporal_features.csv
-2025-10-18 04:38:44,137 - INFO -   - Total features: 213
-2025-10-18 04:38:44,138 - INFO -   - Numeric features: 153
-2025-10-18 04:38:44,139 - INFO -   - Categorical features: 60
-2025-10-18 04:38:44,139 - INFO -   - Temporal features: 15
-2025-10-18 04:38:44,140 - INFO -   - Engineered features: 2
-2025-10-18 04:38:44,141 - INFO -   - Original features: 211
-2025-10-18 04:38:44,143 - INFO -   - Positive cases: 30 (6.01%)
-2025-10-18 04:38:44,144 - INFO -   - Negative cases: 469 (93.99%)
-2025-10-18 04:38:44,148 - INFO -     - Days Since: 1
-2025-10-18 04:38:44,149 - INFO -     - Binary Indicators: 8
-2025-10-18 04:38:44,150 - INFO -     - MVA Specific: 4
-2025-10-18 04:38:44,150 - INFO -     - Categorical Time: 1
-2025-10-18 04:38:44,151 - INFO - 
+2025-10-18 05:05:54,583 - INFO - ================================================================================
+2025-10-18 05:05:54,584 - INFO - LOADING ENGINEERED DATASET WITH TEMPORAL FEATURES
+2025-10-18 05:05:54,584 - INFO - ================================================================================
+2025-10-18 05:05:54,585 - INFO - Loading data from: enhanced_engineered_data/dataset_with_temporal_features.csv
+2025-10-18 05:05:54,635 - INFO -   - Total features: 213
+2025-10-18 05:05:54,636 - INFO -   - Numeric features: 153
+2025-10-18 05:05:54,636 - INFO -   - Categorical features: 60
+2025-10-18 05:05:54,637 - INFO -   - Temporal features: 15
+2025-10-18 05:05:54,638 - INFO -   - Engineered features: 2
+2025-10-18 05:05:54,639 - INFO -   - Original features: 211
+2025-10-18 05:05:54,641 - INFO -   - Positive cases: 30 (6.01%)
+2025-10-18 05:05:54,642 - INFO -   - Negative cases: 469 (93.99%)
+2025-10-18 05:05:54,646 - INFO -     - Days Since: 1
+2025-10-18 05:05:54,647 - INFO -     - Binary Indicators: 8
+2025-10-18 05:05:54,647 - INFO -     - MVA Specific: 4
+2025-10-18 05:05:54,648 - INFO -     - Categorical Time: 1
+2025-10-18 05:05:54,649 - INFO - 
 ================================================================================
-2025-10-18 04:38:44,152 - INFO - RUNNING ENHANCED UNIVARIATE ANALYSIS WITH TEMPORAL FEATURES
-2025-10-18 04:38:44,152 - INFO - ================================================================================
-2025-10-18 04:38:44,155 - INFO -   - Temporal numeric: 14
-2025-10-18 04:38:44,156 - INFO -   - Temporal categorical: 1
-2025-10-18 04:38:44,441 - INFO -   Progress: 20/139
-2025-10-18 04:38:44,449 - INFO -   Progress: 40/139
-2025-10-18 04:38:44,584 - INFO -   Progress: 60/139
-2025-10-18 04:38:44,737 - INFO -   Progress: 80/139
-2025-10-18 04:38:44,968 - INFO -   Progress: 100/139
-2025-10-18 04:38:45,161 - INFO -   Progress: 120/139
-2025-10-18 04:38:45,604 - INFO -   Progress: 20/59
-2025-10-18 04:38:45,728 - INFO -   Progress: 40/59
+2025-10-18 05:05:54,649 - INFO - RUNNING ENHANCED UNIVARIATE ANALYSIS WITH TEMPORAL FEATURES
+2025-10-18 05:05:54,650 - INFO - ================================================================================
+2025-10-18 05:05:54,653 - INFO -   - Temporal numeric: 14
+2025-10-18 05:05:54,653 - INFO -   - Temporal categorical: 1
+2025-10-18 05:05:54,941 - INFO -   Progress: 20/139
+2025-10-18 05:05:54,949 - INFO -   Progress: 40/139
+2025-10-18 05:05:55,074 - INFO -   Progress: 60/139
+2025-10-18 05:05:55,250 - INFO -   Progress: 80/139
+2025-10-18 05:05:55,481 - INFO -   Progress: 100/139
+2025-10-18 05:05:55,670 - INFO -   Progress: 120/139
+2025-10-18 05:05:56,115 - INFO -   Progress: 20/59
+2025-10-18 05:05:56,239 - INFO -   Progress: 40/59

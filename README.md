@@ -124,7 +124,6 @@ The workflow ties together three notebooks that build from **feature engineering
    - Generates `QMVA_Regression_Findings_Marketing_QUANT_v7.docx` with:
      - **Centered image** sections (e.g., SHAP summary, zoom visuals)
      - Bolded section headers and consistent spacing
-     - (Optional) Walker logo, sources, and stat callouts
 
 **Outputs**
 - `Zoom_Consistency_ByMonth.xlsx` (one sheet per month, or all months)
