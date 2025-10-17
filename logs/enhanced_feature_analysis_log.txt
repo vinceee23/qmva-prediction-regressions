@@ -1,0 +1,110 @@
+2025-10-18 05:47:10,261 - INFO - ================================================================================
+2025-10-18 05:47:10,262 - INFO - ENHANCED FEATURE ANALYZER - LOADING DATA (CSV)
+2025-10-18 05:47:10,262 - INFO - ================================================================================
+2025-10-18 05:47:10,263 - INFO - Loading data from: sample_data_synthetic_sensible.csv
+2025-10-18 05:47:10,270 - INFO - 
+Dataset shape: (1200, 61)
+2025-10-18 05:47:10,273 - INFO - Memory usage: 0.56 MB
+2025-10-18 05:47:10,273 - INFO - 
+================================================================================
+2025-10-18 05:47:10,274 - INFO - DATA DISTRIBUTION ANALYSIS
+2025-10-18 05:47:10,274 - INFO - ================================================================================
+2025-10-18 05:47:10,275 - INFO - 
+Law type column found: 'Inquiry Call Type Law Type (Broad)'
+2025-10-18 05:47:10,277 - INFO - --------------------------------------------------
+2025-10-18 05:47:10,278 - INFO -   MVA                     1,200 (100.0%)
+2025-10-18 05:47:10,278 - INFO - 
+Qualified flag column found: 'Inquiry Call Type Qualified Flag'
+2025-10-18 05:47:10,281 - INFO - --------------------------------------------------
+2025-10-18 05:47:10,281 - INFO -   Yes                     1,200 (100.0%)
+2025-10-18 05:47:10,288 - INFO -    Definition: (Inquiry Call Type Qualified Flag = 'Yes') AND (Inquiry Call Type Law Type (Broad) = 'MVA')
+2025-10-18 05:47:10,288 - INFO -    Positive cases: 1,200 (100.00%)
+2025-10-18 05:47:10,289 - INFO -    Negative cases: 0 (0.00%)
+2025-10-18 05:47:10,291 - INFO -    Qualified (any type): 1,200 (100.00%)
+2025-10-18 05:47:10,292 - INFO -    MVA cases: 1,200 (100.00%)
+2025-10-18 05:47:10,292 - INFO -    MVA & Qualified: 1,200 (100.00%)
+2025-10-18 05:47:10,305 - INFO - Inquiry Call Type Qualified Flag    True   All
+Inquiry Call Type Law Type (Broad)            
+True                                1200  1200
+All                                 1200  1200
+2025-10-18 05:47:10,321 - INFO - Found 4 redundant feature pairs:
+2025-10-18 05:47:10,329 - INFO - 
+================================================================================
+2025-10-18 05:47:10,329 - INFO - ENHANCED FEATURE ANALYSIS WITH AGGRESSIVE RISK DETECTION
+2025-10-18 05:47:10,330 - INFO - ================================================================================
+2025-10-18 05:47:10,332 - INFO -    Using sequential processing
+2025-10-18 05:47:10,333 - INFO -    Progress: 0/60 features analyzed...
+2025-10-18 05:47:10,563 - INFO -    Progress: 50/60 features analyzed...
+2025-10-18 05:47:10,791 - INFO - 
+================================================================================
+2025-10-18 05:47:10,793 - INFO - ================================================================================
+2025-10-18 05:47:10,794 - INFO - 
+================================================================================
+2025-10-18 05:47:10,795 - INFO - ================================================================================
+2025-10-18 05:47:10,800 - INFO -   Tier 2 (Strong review, Risk 5-7):       18 features (30.0%)
+2025-10-18 05:47:10,801 - INFO -   Tier 3 (Consider carefully, Risk 3-4):    0 features (0.0%)
+2025-10-18 05:47:10,801 - INFO -   Tier 4 (Likely safe, Risk < 3):          23 features (38.3%)
+2025-10-18 05:47:10,804 - INFO -   - TimeToFirstResponseMinutes: Score 24 (medium_cardinality(15.8%); PII_pattern; system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:47:10,804 - INFO -   - LogDaysSinceIncident: Score 19 (medium_cardinality(17.1%); PII_pattern; system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,805 - INFO -   - ResponseTimeHours: Score 16 (medium_cardinality(15.8%); system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:47:10,805 - INFO -   - HoursIncidentToCall: Score 15 (high_cardinality(48.8%); medium_unique_count(586); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,806 - INFO -   - CaseUrgencyScore: Score 15 (high_cardinality(49.4%); medium_unique_count(593); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,806 - INFO -   - CaseComplexityScore: Score 15 (high_cardinality(49.8%); medium_unique_count(597); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,807 - INFO -   - EngagementScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:47:10,807 - INFO -   - EngagementZScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:47:10,808 - INFO -   - Inquiry Call Type Qualified Flag: Score 12 (outcome_pattern; target_related_name)
+2025-10-18 05:47:10,809 - INFO -   - IncidentRecencyDays: Score 11 (medium_cardinality(17.1%); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,809 - INFO -   - StatuteRiskScore: Score 9 (high_cardinality(45.8%); medium_unique_count(550); suspiciously_complete)
+2025-10-18 05:47:10,810 - INFO -   - SourceReliabilityScore: Score 9 (high_cardinality(47.0%); medium_unique_count(564); suspiciously_complete)
+2025-10-18 05:47:10,810 - INFO -   - ChannelDiversityIndex: Score 9 (high_cardinality(42.6%); medium_unique_count(511); suspiciously_complete)
+2025-10-18 05:47:10,811 - INFO -   - DuplicateInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:47:10,811 - INFO -   - PriorContactCount: Score 8 (PII_pattern)
+2025-10-18 05:47:10,812 - INFO -   - ChannelIsPhone: Score 8 (PII_pattern)
+2025-10-18 05:47:10,813 - INFO -   - TouchpointsLast7d: Score 8 (PII_pattern)
+2025-10-18 05:47:10,813 - INFO -   - ChannelCountLast30d: Score 8 (PII_pattern)
+2025-10-18 05:47:10,814 - INFO -   - UniqueInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:47:10,816 - INFO -   - RetainedByAttorneyFlag: Score 7 (outcome_pattern)
+2025-10-18 05:47:10,817 - INFO -   - InquiryTimeOfDay: Score 6 (system_pattern)
+2025-10-18 05:47:10,817 - INFO -   - SameDayIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:47:10,818 - INFO -   - DaysIncidentToCall: Score 6 (system_pattern)
+2025-10-18 05:47:10,819 - INFO -   - HoursIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:47:10,819 - INFO -   - IncidentWithin90d: Score 6 (system_pattern)
+2025-10-18 05:47:10,820 - INFO -   - IncidentWithin30d: Score 6 (system_pattern)
+2025-10-18 05:47:10,820 - INFO -   - DaysIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:47:10,821 - INFO -   - IncidentWithin365d: Score 6 (system_pattern)
+2025-10-18 05:47:10,821 - INFO -   - SameDayIncidentToCall: Score 6 (system_pattern)
+2025-10-18 05:47:10,923 - INFO - 
+================================================================================
+2025-10-18 05:47:10,925 - INFO - ================================================================================
+2025-10-18 05:47:10,930 - INFO -   Tier 2 (Strong review, Risk 5-7):       18 features (30.0%)
+2025-10-18 05:47:10,930 - INFO -   Tier 3 (Consider carefully, Risk 3-4):    0 features (0.0%)
+2025-10-18 05:47:10,931 - INFO -   Tier 4 (Likely safe, Risk < 3):          23 features (38.3%)
+2025-10-18 05:47:10,933 - INFO -   - TimeToFirstResponseMinutes: Score 24 (medium_cardinality(15.8%); PII_pattern; system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:47:10,934 - INFO -   - LogDaysSinceIncident: Score 19 (medium_cardinality(17.1%); PII_pattern; system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,934 - INFO -   - ResponseTimeHours: Score 16 (medium_cardinality(15.8%); system_pattern; text_pattern; suspiciously_complete)
+2025-10-18 05:47:10,935 - INFO -   - HoursIncidentToCall: Score 15 (high_cardinality(48.8%); medium_unique_count(586); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,935 - INFO -   - CaseUrgencyScore: Score 15 (high_cardinality(49.4%); medium_unique_count(593); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,936 - INFO -   - CaseComplexityScore: Score 15 (high_cardinality(49.8%); medium_unique_count(597); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,937 - INFO -   - EngagementScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:47:10,937 - INFO -   - EngagementZScore: Score 13 (very_high_cardinality(51.7%); medium_unique_count(620); suspiciously_complete)
+2025-10-18 05:47:10,938 - INFO -   - Inquiry Call Type Qualified Flag: Score 12 (outcome_pattern; target_related_name)
+2025-10-18 05:47:10,938 - INFO -   - IncidentRecencyDays: Score 11 (medium_cardinality(17.1%); system_pattern; suspiciously_complete)
+2025-10-18 05:47:10,939 - INFO -   - StatuteRiskScore: Score 9 (high_cardinality(45.8%); medium_unique_count(550); suspiciously_complete)
+2025-10-18 05:47:10,939 - INFO -   - SourceReliabilityScore: Score 9 (high_cardinality(47.0%); medium_unique_count(564); suspiciously_complete)
+2025-10-18 05:47:10,940 - INFO -   - ChannelDiversityIndex: Score 9 (high_cardinality(42.6%); medium_unique_count(511); suspiciously_complete)
+2025-10-18 05:47:10,940 - INFO -   - DuplicateInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:47:10,941 - INFO -   - PriorContactCount: Score 8 (PII_pattern)
+2025-10-18 05:47:10,942 - INFO -   - ChannelIsPhone: Score 8 (PII_pattern)
+2025-10-18 05:47:10,942 - INFO -   - TouchpointsLast7d: Score 8 (PII_pattern)
+2025-10-18 05:47:10,943 - INFO -   - ChannelCountLast30d: Score 8 (PII_pattern)
+2025-10-18 05:47:10,943 - INFO -   - UniqueInquiryFlag: Score 8 (PII_pattern)
+2025-10-18 05:47:10,946 - INFO -   - RetainedByAttorneyFlag: Score 7 (outcome_pattern)
+2025-10-18 05:47:10,946 - INFO -   - InquiryTimeOfDay: Score 6 (system_pattern)
+2025-10-18 05:47:10,947 - INFO -   - SameDayIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:47:10,947 - INFO -   - DaysIncidentToCall: Score 6 (system_pattern)
+2025-10-18 05:47:10,948 - INFO -   - HoursIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:47:10,948 - INFO -   - IncidentWithin90d: Score 6 (system_pattern)
+2025-10-18 05:47:10,949 - INFO -   - IncidentWithin30d: Score 6 (system_pattern)
+2025-10-18 05:47:10,949 - INFO -   - DaysIncidentToInquiry: Score 6 (system_pattern)
+2025-10-18 05:47:10,950 - INFO -   - IncidentWithin365d: Score 6 (system_pattern)
+2025-10-18 05:47:10,950 - INFO -   - SameDayIncidentToCall: Score 6 (system_pattern)

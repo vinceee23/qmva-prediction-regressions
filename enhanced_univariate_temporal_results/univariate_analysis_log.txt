@@ -1,0 +1,30 @@
+2025-10-18 05:47:13,123 - INFO - ================================================================================
+2025-10-18 05:47:13,123 - INFO - LOADING ENGINEERED DATASET WITH TEMPORAL FEATURES
+2025-10-18 05:47:13,124 - INFO - ================================================================================
+2025-10-18 05:47:13,125 - INFO - Loading data from: enhanced_engineered_data/dataset_with_temporal_features.csv
+2025-10-18 05:47:13,173 - INFO -   - Total features: 213
+2025-10-18 05:47:13,174 - INFO -   - Numeric features: 153
+2025-10-18 05:47:13,174 - INFO -   - Categorical features: 60
+2025-10-18 05:47:13,175 - INFO -   - Temporal features: 15
+2025-10-18 05:47:13,175 - INFO -   - Engineered features: 2
+2025-10-18 05:47:13,176 - INFO -   - Original features: 211
+2025-10-18 05:47:13,178 - INFO -   - Positive cases: 30 (6.01%)
+2025-10-18 05:47:13,178 - INFO -   - Negative cases: 469 (93.99%)
+2025-10-18 05:47:13,181 - INFO -     - Days Since: 1
+2025-10-18 05:47:13,182 - INFO -     - Binary Indicators: 8
+2025-10-18 05:47:13,182 - INFO -     - MVA Specific: 4
+2025-10-18 05:47:13,183 - INFO -     - Categorical Time: 1
+2025-10-18 05:47:13,183 - INFO - 
+================================================================================
+2025-10-18 05:47:13,184 - INFO - RUNNING ENHANCED UNIVARIATE ANALYSIS WITH TEMPORAL FEATURES
+2025-10-18 05:47:13,184 - INFO - ================================================================================
+2025-10-18 05:47:13,187 - INFO -   - Temporal numeric: 14
+2025-10-18 05:47:13,187 - INFO -   - Temporal categorical: 1
+2025-10-18 05:47:13,459 - INFO -   Progress: 20/139
+2025-10-18 05:47:13,466 - INFO -   Progress: 40/139
+2025-10-18 05:47:13,574 - INFO -   Progress: 60/139
+2025-10-18 05:47:13,725 - INFO -   Progress: 80/139
+2025-10-18 05:47:13,921 - INFO -   Progress: 100/139
+2025-10-18 05:47:14,106 - INFO -   Progress: 120/139
+2025-10-18 05:47:14,586 - INFO -   Progress: 20/59
+2025-10-18 05:47:14,708 - INFO -   Progress: 40/59

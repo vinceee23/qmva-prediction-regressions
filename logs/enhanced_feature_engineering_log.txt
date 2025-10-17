@@ -1,0 +1,31 @@
+2025-10-18 05:47:11,161 - INFO - ================================================================================
+2025-10-18 05:47:11,161 - INFO - LOADING DATA AND RISK ANALYSIS
+2025-10-18 05:47:11,162 - INFO - ================================================================================
+2025-10-18 05:47:11,162 - INFO - Loading dataset from: enhanced_engineered_data\dataset_with_temporal_features.csv
+2025-10-18 05:47:11,177 - INFO -   - Positive cases (MVA Qualified): 30 (6.01%)
+2025-10-18 05:47:11,177 - INFO -   - Negative cases: 469 (93.99%)
+2025-10-18 05:47:11,180 - INFO -   - MVA: 90 (18.0%)
+2025-10-18 05:47:11,181 - INFO -   - Call Back: 76 (15.2%)
+2025-10-18 05:47:11,181 - INFO -   - Misc: 75 (15.0%)
+2025-10-18 05:47:11,182 - INFO -   - Premise: 9 (1.8%)
+2025-10-18 05:47:11,182 - INFO -   - WC: 7 (1.4%)
+2025-10-18 05:47:11,200 - INFO -   - Temporal features: 0
+2025-10-18 05:47:11,201 - INFO -   - Call features: 4
+2025-10-18 05:47:11,202 - INFO -   - Lead features: 1
+2025-10-18 05:47:11,202 - INFO -   - Revenue features: 0
+2025-10-18 05:47:11,203 - INFO -   - Law type features: 1
+2025-10-18 05:47:11,203 - INFO -   - Text features: 1
+2025-10-18 05:47:11,204 - INFO - 
+================================================================================
+2025-10-18 05:47:11,204 - INFO - EXCLUDING HIGH-RISK FEATURES
+2025-10-18 05:47:11,204 - INFO - ================================================================================
+2025-10-18 05:47:11,208 - INFO - Does 'Inquiry Start Timestamp' exist? False
+2025-10-18 05:47:11,209 - INFO - First 10 columns: ['ÃƒÆ’Ã�\xa0â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿Ad Id', 'Ad Placement', 'Broadcast Month', 'Budget RPL', 'Call Abandoned Flag', 'Call Abandoned Seconds', 'Call In-Queue Seconds', 'Call Type Exception Flag', 'Campaign Topic', 'Clicks']
+2025-10-18 05:47:11,246 - WARNING - Found 4 validation issues:
+2025-10-18 05:47:11,246 - WARNING -   - Has_Call_Channel: Constant feature - removing
+2025-10-18 05:47:11,247 - WARNING -   - Has_Web_Channel: Constant feature - removing
+2025-10-18 05:47:11,247 - WARNING -   - Has_Sms_Channel: Constant feature - removing
+2025-10-18 05:47:11,248 - WARNING -   - Channel_Diversity_Index: Constant feature - removing
+2025-10-18 05:47:11,253 - INFO - 
+================================================================================
+2025-10-18 05:47:11,256 - INFO - ================================================================================
