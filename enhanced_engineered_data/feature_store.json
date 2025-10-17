@@ -1,7 +1,7 @@
 {
   "features": {
     "Multi_Touch_Engagement_Score": {
-      "created_date": "2025-10-18T05:05:52.062221",
+      "created_date": "2025-10-18T05:47:11.220037",
       "source_features": [
         "Call Abandoned Seconds",
         "Call In-Queue Seconds",
@@ -36,7 +36,7 @@
       "data_type": "numeric"
     },
     "Has_Call_Channel": {
-      "created_date": "2025-10-18T05:05:52.063499",
+      "created_date": "2025-10-18T05:47:11.221231",
       "source_features": [
         "Call Abandoned Flag",
         "Call Abandoned Seconds",
@@ -74,7 +74,7 @@
       "data_type": "binary"
     },
     "Has_Web_Channel": {
-      "created_date": "2025-10-18T05:05:52.064353",
+      "created_date": "2025-10-18T05:47:11.222119",
       "source_features": [
         "Web Lead Attempt Count",
         "Web Lead Flag",
@@ -87,7 +87,7 @@
       "data_type": "binary"
     },
     "Has_Sms_Channel": {
-      "created_date": "2025-10-18T05:05:52.065072",
+      "created_date": "2025-10-18T05:47:11.222904",
       "source_features": [
         "Consumer Opt-In (SMS) Flag"
       ],
@@ -98,7 +98,7 @@
       "data_type": "binary"
     },
     "Channel_Diversity_Index": {
-      "created_date": "2025-10-18T05:05:52.065693",
+      "created_date": "2025-10-18T05:47:11.223516",
       "source_features": [
         "Has_Call_Channel",
         "Has_Web_Channel",
@@ -111,7 +111,7 @@
       "data_type": "numeric"
     },
     "Multi_Touch_Engagement_Score_Percentile": {
-      "created_date": "2025-10-18T05:05:52.081340",
+      "created_date": "2025-10-18T05:47:11.238516",
       "source_features": [
         "Multi_Touch_Engagement_Score"
       ],

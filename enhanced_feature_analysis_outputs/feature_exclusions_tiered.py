@@ -1,6 +1,6 @@
 """
 Tiered Feature Exclusion Lists for MVA Qualification Model
-Generated on: 2025-10-18 05:05:51
+Generated on: 2025-10-18 05:47:10
 Enhanced version with aggressive risk detection
 Target: MVA_Qualified = (Qualified="Yes" AND Law_Type="MVA")
 """
