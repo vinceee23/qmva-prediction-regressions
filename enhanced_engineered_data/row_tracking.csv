@@ -1,0 +1,4 @@
+name,rows,reason,timestamp
+Initial Load,499,Raw data loaded,2025-10-18T04:38:41.814333
+After Risk Exclusion,499,Removed 0 high-risk features,2025-10-18T04:38:41.853340
+Final Save,499,Saved with 2 new features,2025-10-18T04:38:41.936702

@@ -1,0 +1,18 @@
+Temporal Features Created: 15
+==================================================
+
+1. Case_Urgency_Score
+2. Delayed_Treatment_Risk
+3. Emergency_Treatment_Window
+4. In_Optimal_Window
+5. Incident_Recency_Detailed
+6. Incident_Within_14_Days
+7. Incident_Within_180_Days
+8. Incident_Within_30_Days
+9. Incident_Within_365_Days
+10. Incident_Within_60_Days
+11. Incident_Within_730_Days
+12. Incident_Within_7_Days
+13. Incident_Within_90_Days
+14. Log_Days_Since_Incident
+15. Statute_Risk_Score

@@ -1,0 +1,9 @@
+FEATURE VALIDATION REPORT
+==================================================
+
+Total issues found: 4
+
+- Has_Call_Channel: Constant feature - removing
+- Has_Web_Channel: Constant feature - removing
+- Has_Sms_Channel: Constant feature - removing
+- Channel_Diversity_Index: Constant feature - removing

@@ -1,0 +1,214 @@
+Feature,Type,Category,Engineering_Method,Source_Features,Risk_Score,Importance_Score,Missing_Rate,Description
+ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â¿Ad Id,float64,Original,original,,,,1.0,Original feature from dataset
+Ad Placement,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Broadcast Month,object,Temporal,original,,0.0,,0.0,Original feature from dataset
+Budget RPL,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Call Abandoned Flag,object,Call,original,,0.0,,0.4348697394789579,Original feature from dataset
+Call Abandoned Seconds,float64,Temporal,original,,0.0,,0.4348697394789579,Original feature from dataset
+Call In-Queue Seconds,float64,Temporal,original,,4.0,,0.4348697394789579,Original feature from dataset
+Call Type Exception Flag,object,Call,original,,0.0,,0.0,Original feature from dataset
+Campaign Topic,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Clicks,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Consumer Age,float64,Original,original,,2.0,,0.7915831663326653,Original feature from dataset
+Consumer Apt,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Consumer At-Fault Flag (Agent),object,Original,original,,0.0,,0.9919839679358717,Original feature from dataset
+Consumer At-Fault Flag (Consumer),object,Original,original,,0.0,,0.9238476953907816,Original feature from dataset
+Consumer Complaint Count (Total),float64,Original,original,,0.0,,0.9979959919839679,Original feature from dataset
+Consumer Gender,object,Original,original,,0.0,,0.03807615230460922,Original feature from dataset
+Consumer Hospitalization Flag,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Consumer Insured Flag,object,Original,original,,0.0,,0.9378757515030061,Original feature from dataset
+Consumer Language,object,Original,original,,0.0,,0.4248496993987976,Original feature from dataset
+Consumer Opt-In (SMS) Flag,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Consumer-Party Injury Flag,object,Original,original,,0.0,,0.9238476953907816,Original feature from dataset
+Creative Language,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Creative Length,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Creative Talent,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Creative Walker Brand,float64,Original,original,,0.0,,1.0,Original feature from dataset
+CS Agent,float64,Original,original,,0.0,,1.0,Original feature from dataset
+CumulativeMediaQuarter,int64,Original,original,,0.0,,0.0,Original feature from dataset
+CurrentCumulativeMediaPayPeriod,float64,Original,original,,0.0,,0.6312625250501002,Original feature from dataset
+Data Source,object,Original,original,,0.0,,0.0,Original feature from dataset
+Device,float64,Original,original,,0.0,,1.0,Original feature from dataset
+DNIS Walker Brand,object,Original,original,,0.0,,0.6533066132264529,Original feature from dataset
+DNIS Walker Company,object,Original,original,,0.0,,0.6533066132264529,Original feature from dataset
+Foundation Program Flag,object,Original,original,,0.0,,0.875751503006012,Original feature from dataset
+Gross Cost,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Impressions,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Impressions Source,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Inquiry Agent English Skill,object,Original,original,,0.0,,0.8236472945891784,Original feature from dataset
+Inquiry Agent Skill,object,Original,original,,0.0,,0.8016032064128257,Original feature from dataset
+Inquiry Agent Spanish Skill,object,Original,original,,0.0,,0.8236472945891784,Original feature from dataset
+Inquiry Call Type Law Type (Broad),object,Call,original,,4.0,,0.4729458917835671,Original feature from dataset
+Inquiry Callback Reason,float64,Call,original,,0.0,,1.0,Original feature from dataset
+Inquiry Injury Severity,object,Original,original,,0.0,,0.9218436873747495,Original feature from dataset
+Inquiry Media Source Campaign Lifecycle Stage,object,Original,original,,0.0,,0.3847695390781563,Original feature from dataset
+Inquiry Media Source Type,object,Original,original,,0.0,,0.006012024048096192,Original feature from dataset
+Intake Manual Creation Agent,object,Original,original,,0.0,,0.9739478957915831,Original feature from dataset
+Intake Media Source Type,object,Original,original,,0.0,,0.04208416833667335,Original feature from dataset
+Invoca Geo,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Marketing Campaign,float64,Original,original,,0.0,,0.9939879759519038,Original feature from dataset
+Marketing Content,object,Original,original,,0.0,,0.9919839679358717,Original feature from dataset
+Marketing Medium,object,Original,original,,0.0,,0.9799599198396793,Original feature from dataset
+Marketing Source,object,Original,original,,0.0,,0.9799599198396793,Original feature from dataset
+Marketing Term,object,Original,original,,0.0,,0.9979959919839679,Original feature from dataset
+Match Type,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Media Language,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Media Outlet,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Media Tactic,object,Original,original,,0.0,,0.0,Original feature from dataset
+Net Cost,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Network (Master Table),float64,Original,original,,0.0,,1.0,Original feature from dataset
+Non-Equivalized Impressions,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Opposing-Party Insured Flag,object,Original,original,,0.0,,0.935871743486974,Original feature from dataset
+Other Caller: Relationship,float64,Call,original,,0.0,,1.0,Original feature from dataset
+Other Caller: Type,object,Call,original,,0.0,,0.9759519038076152,Original feature from dataset
+Page Variant,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Passenger Count,float64,Original,original,,0.0,,0.9519038076152304,Original feature from dataset
+placement,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Platform Placement,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Previous Inquiry Rotation,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Prop 213 Flag,object,Original,original,,0.0,,0.9478957915831663,Original feature from dataset
+Publisher Media Tactic,object,Original,original,,0.0,,0.9659318637274549,Original feature from dataset
+Retention by Atty,object,Original,original,,0.0,,0.0,Original feature from dataset
+Shared Media Source Type,object,Original,original,,0.0,,0.006012024048096192,Original feature from dataset
+Spot Count,float64,Original,original,,0.0,,1.0,Original feature from dataset
+Uninsured Motorist (UM) Coverage,float64,Original,original,,0.0,,1.0,Original feature from dataset
+UTM Campaign,float64,Original,original,,2.0,,0.8957915831663327,Original feature from dataset
+UTM Content,object,Original,original,,2.0,,0.8937875751503006,Original feature from dataset
+UTM Medium,object,Original,original,,0.0,,0.8817635270541082,Original feature from dataset
+UTM Source,object,Original,original,,0.0,,0.8817635270541082,Original feature from dataset
+UTM Term,object,Original,original,,0.0,,0.9979959919839679,Original feature from dataset
+Unique Inquiry Flag,object,Original,original,,0.0,,0.0,Original feature from dataset
+Walker Brand,object,Original,original,,0.0,,0.026052104208416832,Original feature from dataset
+Walker Campaign Group,object,Original,original,,0.0,,0.9478957915831663,Original feature from dataset
+Walker Campaign Language,object,Original,original,,0.0,,0.655310621242485,Original feature from dataset
+Walker Company,object,Original,original,,0.0,,0.0,Original feature from dataset
+Walker Geo Group,object,Original,original,,0.0,,0.6472945891783567,Original feature from dataset
+Walker Geo Group (Network vs Local),object,Original,original,,0.0,,0.0,Original feature from dataset
+Walker Region,object,Original,original,,0.0,,0.6232464929859719,Original feature from dataset
+Web Lead Attempt Count,float64,Lead,original,,0.0,,0.6452905811623246,Original feature from dataset
+Web Lead Flag,object,Lead,original,,0.0,,0.0,Original feature from dataset
+Web Lead Platform,float64,Lead,original,,0.0,,1.0,Original feature from dataset
+XTM Adgroup,float64,Original,original,,2.0,,0.8977955911823647,Original feature from dataset
+XTM Landing Page,float64,Original,original,,0.0,,1.0,Original feature from dataset
+XTM Network,object,Original,original,,0.0,,0.9078156312625251,Original feature from dataset
+XTM Offer,object,Original,original,,0.0,,0.9318637274549099,Original feature from dataset
+XTM Placement,object,Original,original,,0.0,,0.9719438877755511,Original feature from dataset
+_CumulativeMediaMonth,int64,Temporal,original,,0.0,,0.0,Original feature from dataset
+_CumulativeMediaWeek,int64,Original,original,,0.0,,0.0,Original feature from dataset
+_Media Tactic Source,object,Original,original,,0.0,,0.0,Original feature from dataset
+_WeeksInMonth,int64,Temporal,original,,0.0,,0.0,Original feature from dataset
+_WeeksInQuarter,int64,Original,original,,0.0,,0.0,Original feature from dataset
+Multi_Touch_Engagement_Score,float64,Engineered,composite_score,"Call Abandoned Seconds, Call In-Queue Seconds, Inquiry Callback Reason, Other Caller: Relationship, Web Lead Attempt Count, Multi_Touch_Engagement_Score, Multi_Touch_Engagement_Score_Percentile, Days_Since_Call_Start_Date, Call_Start_Date_Year, Call_Start_Date_Month, Call_Start_Date_Quarter, Call_Start_Date_DayOfWeek, Call_Start_Date_DayOfMonth, Call_Start_Date_IsWeekend, Call_Start_Date_Hour, Days_Incident_to_Call, Hours_Incident_to_Call, Incident_to_Call_Within_1d, Incident_to_Call_Within_3d, Incident_to_Call_Within_7d, Incident_to_Call_Within_14d, Incident_to_Call_Within_30d, Same_Day_Incident_to_Call, Call_Start_Date_TimeOfDay_Unknown, Call_Holiday_Season",,,0.9478957915831663,Normalized composite score of multi-channel engagement
+Multi_Touch_Engagement_Score_Percentile,float64,Engineered,percentile_rank,Multi_Touch_Engagement_Score,,,0.9478957915831663,Percentile rank of Multi_Touch_Engagement_Score
+Days_Since_Incident_Date,float64,Original,original,,,,0.905811623246493,Original feature from dataset
+Incident_Date_Year,float64,Original,original,,,,0.905811623246493,Original feature from dataset
+Incident_Date_Month,float64,Original,original,,,,0.905811623246493,Original feature from dataset
+Incident_Date_Quarter,float64,Original,original,,,,0.905811623246493,Original feature from dataset
+Incident_Date_DayOfWeek,float64,Original,original,,,,0.905811623246493,Original feature from dataset
+Incident_Date_DayOfMonth,float64,Original,original,,,,0.905811623246493,Original feature from dataset
+Incident_Date_IsWeekend,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Date_Hour,float64,Original,original,,,,1.0,Original feature from dataset
+Incident_Date_TimeOfDay,object,Original,original,,,,0.0,Original feature from dataset
+Days_Since_Call_Start_Date,float64,Original,original,,,,0.4348697394789579,Original feature from dataset
+Call_Start_Date_Year,float64,Original,original,,,,0.4348697394789579,Original feature from dataset
+Call_Start_Date_Month,float64,Original,original,,,,0.4348697394789579,Original feature from dataset
+Call_Start_Date_Quarter,float64,Original,original,,,,0.4348697394789579,Original feature from dataset
+Call_Start_Date_DayOfWeek,float64,Original,original,,,,0.4348697394789579,Original feature from dataset
+Call_Start_Date_DayOfMonth,float64,Original,original,,,,0.4348697394789579,Original feature from dataset
+Call_Start_Date_IsWeekend,int64,Original,original,,,,0.0,Original feature from dataset
+Call_Start_Date_Hour,float64,Original,original,,,,1.0,Original feature from dataset
+Call_Start_Date_TimeOfDay,object,Original,original,,,,0.0,Original feature from dataset
+Days_Since_Inquiry_Start_Timestamp,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Timestamp_Year,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Timestamp_Month,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Timestamp_Quarter,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Timestamp_DayOfWeek,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Timestamp_DayOfMonth,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Timestamp_IsWeekend,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Timestamp_Hour,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Timestamp_TimeOfDay,object,Original,original,,,,0.0,Original feature from dataset
+Days_Since_Inquiry_Start_Date,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_Year,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_Month,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_Quarter,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_DayOfWeek,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_DayOfMonth,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_IsWeekend,int64,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_Hour,float64,Original,original,,,,1.0,Original feature from dataset
+Inquiry_Start_Date_TimeOfDay,object,Original,original,,,,0.0,Original feature from dataset
+Days_Since_Week_Start_Date,int64,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_Year,int64,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_Month,int64,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_Quarter,int64,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_DayOfWeek,int64,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_DayOfMonth,int64,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_IsWeekend,int64,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_Hour,float64,Original,original,,,,1.0,Original feature from dataset
+Week_Start_Date_TimeOfDay,object,Original,original,,,,0.0,Original feature from dataset
+Days_Since_Month_Start_Date,int64,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_Year,int64,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_Month,int64,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_Quarter,int64,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_DayOfWeek,int64,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_DayOfMonth,int64,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_IsWeekend,int64,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_Hour,float64,Original,original,,,,1.0,Original feature from dataset
+Month_Start_Date_TimeOfDay,object,Original,original,,,,0.0,Original feature from dataset
+Days_Since_Shared_Date,int64,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_Year,int64,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_Month,int64,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_Quarter,int64,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_DayOfWeek,int64,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_DayOfMonth,int64,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_IsWeekend,int64,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_Hour,float64,Original,original,,,,1.0,Original feature from dataset
+Shared_Date_TimeOfDay,object,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed,object,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_7_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_14_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_30_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_60_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_90_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_180_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_365_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Within_730_Days,int64,Original,original,,,,0.0,Original feature from dataset
+Statute_Risk_Score,int64,Original,original,,,,0.0,Original feature from dataset
+In_Optimal_Window,int64,Original,original,,,,0.0,Original feature from dataset
+Log_Days_Since_Incident,float64,Original,original,,,,0.905811623246493,Original feature from dataset
+Days_Incident_to_Call,float64,Original,original,,,,0.9078156312625251,Original feature from dataset
+Hours_Incident_to_Call,float64,Original,original,,,,0.9078156312625251,Original feature from dataset
+Incident_to_Call_Within_1d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Call_Within_3d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Call_Within_7d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Call_Within_14d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Call_Within_30d,int64,Original,original,,,,0.0,Original feature from dataset
+Same_Day_Incident_to_Call,int64,Original,original,,,,0.0,Original feature from dataset
+Days_Incident_to_Inquiry,float64,Original,original,,,,1.0,Original feature from dataset
+Hours_Incident_to_Inquiry,float64,Original,original,,,,1.0,Original feature from dataset
+Incident_to_Inquiry_Within_1d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Inquiry_Within_3d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Inquiry_Within_7d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Inquiry_Within_14d,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_to_Inquiry_Within_30d,int64,Original,original,,,,0.0,Original feature from dataset
+Same_Day_Incident_to_Inquiry,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Date_TimeOfDay_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Call_Start_Date_TimeOfDay_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Timestamp_TimeOfDay_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Inquiry_Start_Date_TimeOfDay_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Week_Start_Date_TimeOfDay_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Month_Start_Date_TimeOfDay_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Shared_Date_TimeOfDay_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed_Ancient,bool,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed_Moderate,bool,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed_Old,bool,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed_Recent,bool,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed_Unknown,bool,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed_Very_Old,bool,Original,original,,,,0.0,Original feature from dataset
+Incident_Recency_Detailed_Very_Recent,bool,Original,original,,,,0.0,Original feature from dataset
+Emergency_Treatment_Window,int64,Original,original,,,,0.0,Original feature from dataset
+Delayed_Treatment_Risk,int64,Original,original,,,,0.0,Original feature from dataset
+Case_Urgency_Score,int64,Original,original,,,,0.0,Original feature from dataset
+Incident_Season,object,Original,original,,,,0.0,Original feature from dataset
+Incident_Holiday_Season,int64,Original,original,,,,0.0,Original feature from dataset
+Call_Season,object,Original,original,,,,0.0,Original feature from dataset
+Call_Holiday_Season,int64,Original,original,,,,0.0,Original feature from dataset

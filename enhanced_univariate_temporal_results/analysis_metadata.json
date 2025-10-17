@@ -1,0 +1,21 @@
+{
+  "analysis_date": "2025-10-03T00:37:45.965576",
+  "dataset_path": "enhanced_engineered_data/dataset_with_temporal_features.csv",
+  "target_variable": "MVA_Qualified",
+  "total_records": 1840739,
+  "total_features": 209,
+  "features_analyzed": 194,
+  "numeric_features": 137,
+  "categorical_features": 72,
+  "temporal_features": 107,
+  "engineered_features": 17,
+  "original_features": 85,
+  "target_positive_rate": 0.04368517209664162,
+  "output_directory": "enhanced_univariate_temporal_results",
+  "temporal_patterns_found": {
+    "recency": 7,
+    "cyclical": 32,
+    "time_windows": 18,
+    "time_differences": 16
+  }
+}

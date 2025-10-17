@@ -1,0 +1,133 @@
+{
+  "features": {
+    "Multi_Touch_Engagement_Score": {
+      "created_date": "2025-10-18T04:38:41.869312",
+      "source_features": [
+        "Call Abandoned Seconds",
+        "Call In-Queue Seconds",
+        "Inquiry Callback Reason",
+        "Other Caller: Relationship",
+        "Web Lead Attempt Count",
+        "Multi_Touch_Engagement_Score",
+        "Multi_Touch_Engagement_Score_Percentile",
+        "Days_Since_Call_Start_Date",
+        "Call_Start_Date_Year",
+        "Call_Start_Date_Month",
+        "Call_Start_Date_Quarter",
+        "Call_Start_Date_DayOfWeek",
+        "Call_Start_Date_DayOfMonth",
+        "Call_Start_Date_IsWeekend",
+        "Call_Start_Date_Hour",
+        "Days_Incident_to_Call",
+        "Hours_Incident_to_Call",
+        "Incident_to_Call_Within_1d",
+        "Incident_to_Call_Within_3d",
+        "Incident_to_Call_Within_7d",
+        "Incident_to_Call_Within_14d",
+        "Incident_to_Call_Within_30d",
+        "Same_Day_Incident_to_Call",
+        "Call_Start_Date_TimeOfDay_Unknown",
+        "Call_Holiday_Season"
+      ],
+      "engineering_method": "composite_score",
+      "validation_status": "passed",
+      "importance_score": null,
+      "description": "Normalized composite score of multi-channel engagement",
+      "data_type": "numeric"
+    },
+    "Has_Call_Channel": {
+      "created_date": "2025-10-18T04:38:41.870436",
+      "source_features": [
+        "Call Abandoned Flag",
+        "Call Abandoned Seconds",
+        "Call In-Queue Seconds",
+        "Call Type Exception Flag",
+        "Inquiry Call Type Law Type (Broad)",
+        "Inquiry Callback Reason",
+        "Other Caller: Relationship",
+        "Other Caller: Type",
+        "Days_Since_Call_Start_Date",
+        "Call_Start_Date_Year",
+        "Call_Start_Date_Month",
+        "Call_Start_Date_Quarter",
+        "Call_Start_Date_DayOfWeek",
+        "Call_Start_Date_DayOfMonth",
+        "Call_Start_Date_IsWeekend",
+        "Call_Start_Date_Hour",
+        "Call_Start_Date_TimeOfDay",
+        "Days_Incident_to_Call",
+        "Hours_Incident_to_Call",
+        "Incident_to_Call_Within_1d",
+        "Incident_to_Call_Within_3d",
+        "Incident_to_Call_Within_7d",
+        "Incident_to_Call_Within_14d",
+        "Incident_to_Call_Within_30d",
+        "Same_Day_Incident_to_Call",
+        "Call_Start_Date_TimeOfDay_Unknown",
+        "Call_Season",
+        "Call_Holiday_Season"
+      ],
+      "engineering_method": "presence_indicator",
+      "validation_status": "pending",
+      "importance_score": null,
+      "description": "Binary indicator for call channel usage",
+      "data_type": "binary"
+    },
+    "Has_Web_Channel": {
+      "created_date": "2025-10-18T04:38:41.871229",
+      "source_features": [
+        "Web Lead Attempt Count",
+        "Web Lead Flag",
+        "Web Lead Platform"
+      ],
+      "engineering_method": "presence_indicator",
+      "validation_status": "pending",
+      "importance_score": null,
+      "description": "Binary indicator for web channel usage",
+      "data_type": "binary"
+    },
+    "Has_Sms_Channel": {
+      "created_date": "2025-10-18T04:38:41.872181",
+      "source_features": [
+        "Consumer Opt-In (SMS) Flag"
+      ],
+      "engineering_method": "presence_indicator",
+      "validation_status": "pending",
+      "importance_score": null,
+      "description": "Binary indicator for sms channel usage",
+      "data_type": "binary"
+    },
+    "Channel_Diversity_Index": {
+      "created_date": "2025-10-18T04:38:41.872980",
+      "source_features": [
+        "Has_Call_Channel",
+        "Has_Web_Channel",
+        "Has_Sms_Channel"
+      ],
+      "engineering_method": "count",
+      "validation_status": "pending",
+      "importance_score": null,
+      "description": "Number of different communication channels used",
+      "data_type": "numeric"
+    },
+    "Multi_Touch_Engagement_Score_Percentile": {
+      "created_date": "2025-10-18T04:38:41.890184",
+      "source_features": [
+        "Multi_Touch_Engagement_Score"
+      ],
+      "engineering_method": "percentile_rank",
+      "validation_status": "passed",
+      "importance_score": null,
+      "description": "Percentile rank of Multi_Touch_Engagement_Score",
+      "data_type": "numeric"
+    }
+  },
+  "creation_order": [
+    "Multi_Touch_Engagement_Score",
+    "Has_Call_Channel",
+    "Has_Web_Channel",
+    "Has_Sms_Channel",
+    "Channel_Diversity_Index",
+    "Multi_Touch_Engagement_Score_Percentile"
+  ]
+}
